@@ -6,6 +6,11 @@ python manage.py runserver
 # To make migration changes(models.py)
 python manage.py makemigrations
 
+# To run the migrate changes done
+python manage.py migrate
+
+# create superuser that can asset the admin panel
+python manage.py createsuperuser
 # Step1 
 django-admin startproject irishGram
 
