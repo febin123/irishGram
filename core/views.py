@@ -61,3 +61,7 @@ def signin(request):
     
     else:
         return render(request,'signin.html')
+
+def logout(request):
+    auth.logout(request)
+    return redirect('signin')
