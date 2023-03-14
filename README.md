@@ -11,7 +11,7 @@ python manage.py migrate
 
 # create superuser that can asset the admin panel
 python manage.py createsuperuser
-# Step1 
+# Create Django project
 django-admin startproject irishGram
 
 This gonna create new file called manage.py
